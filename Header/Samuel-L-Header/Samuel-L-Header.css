@@ -1,0 +1,42 @@
+.cover{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+  background-size:cover;
+  height:100vh;
+  width:100vw;
+  text-align:center;
+  color: hsla(0,0%,100%,.7);
+  font-family: 'Cormorant Garamond', serif;
+  display: table;
+}
+.wrapper{
+  display:table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+.byline h3{
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+.byline h4{
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.headline {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+@media screen and (min-width: 1224px) {
+
+  .headline {
+    font-size: 6rem;
+  }
+
+}
+
+.tagline {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
